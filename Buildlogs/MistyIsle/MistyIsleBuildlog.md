@@ -1,4 +1,3 @@
-Hello all! I've just got Proxmox loaded up on my first server build so I thought I would post my build experience in case other people had any interest in the parts and wanted to know of any silly quirks they might encounter.
 
 Parts list:
 
@@ -10,7 +9,7 @@ Parts list:
 
 * Ram: 1x Samsung 8GB DDR5 4800 MHZ (M323R1GB4BB0-CQK)
 
-* Boot Drive: Micron 7450 Pro 480GB M.2 NVME 
+* Boot Drive: Kingston DC2000B 240gb M.2 NVME 
 
 * Storage Drive: 2x Dell EMC 960GB Sata (Micron 7300 Max) 
 
@@ -29,8 +28,5 @@ The build itself was a learning process for a lot of things as it's the first ti
 
 The motherboard itself came with absolutely nothing, not even a screw for the M.2 drive. The standoff itself also used an M3 screw instead of the usual M2. No IO shield either if I decide to transplant it into a 2U chassis either.
 
-And as with all servers, the the little 40x40x38mm fans are screamers. The board wanted them to idle at 10k RPM, and after I snuck into the IPMI they still run at 6K RPM at 20% duty cycle. At 10K RPM I could hear them upstairs from where they live in my Harry Potter closet, but now they're mostly background noise.
+And as with all servers, the the little 40x40x38mm fans are screamers. The board wanted them to idle at 10k RPM, and after I snuck into the IPMI they still run at 6K RPM at 20% duty cycle. At 10K RPM I could hear them upstairs from where they live in my Harry Potter closet. I've swapped them with Arctic's S4028-6K 6000 RPM 40mm fans instead, and while it is a reduction in noise, the CPU cooler itself is where most of the noise is coming from. Dynatron makes a similar looking model with a copper heatsink and a proper vapor chamber instead of a skived aluminum block that I suspect will perform better, but maybe not $60 better. For now, the noise is tolerable when the door is closed.
 
-Overall, I had a lot of fun hunting parts and learning as I assembled. The hardware is always more fun than software for me, so I've been dragging my feet on setting up Proxmox. The plan is to just use it as a small media server, but the CPU should have enough grunt to do other virtualization tasks and with a bit of extra ram I can probably fit a minecraft server on it too.
-
-Thanks for reading, and I'll do my best to answer any questions!
