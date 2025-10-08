@@ -5,4 +5,12 @@ Build logs, troubleshooting notes, ramblings, and more!
 
 Feel free to message me if there are any questions.
 
-![Current Rack](https://github.com/ben8ding/homelab/blob/main/images/IMG_3628.jpeg?raw=true)
+## Table of Contents
+
+* Build Logs
+    * [MistyIsle - 1U Hypervisor Sandbox](Buildlogs/MistyIsle/MistyIsleBuildlog.md)
+    * [CinderCove - 2U Dedicated](Buildlogs/CinderCove/CinderCoveBuildlog.md) 
+
+![Current Rack](/images/IMG_3628.jpeg)
+
+
